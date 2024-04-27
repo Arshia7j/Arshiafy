@@ -128,18 +128,35 @@ a {
   margin-right: 2rem;
 }
 
-.list--tick--icon{
+.list--tick--icon {
   width: 2rem;
   padding-right: 2rem;
 }
 
-.list--tick .list__item{
+.list--tick .list__item {
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width:1024px){
-  .list--tick--icon{
+@media screen and (min-width: 1024px) {
+  .list--tick--icon {
     padding-right: 0.8rem;
   }
+}
+
+/* Icon */
+
+.icon{
+  font-size: 5rem;
+  color: var(--color-primary);
+}
+
+.icon-container{
+  background: rgb(228, 227, 227);
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
